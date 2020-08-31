@@ -1,0 +1,125 @@
+body{
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5a948e;
+}
+
+.bg-dark{
+    background-color: #005254!important;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    transition: 0.4s ease;
+    transition-property: color;
+} 
+.navbar-brand:hover{
+    color: #4a8d95!important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 18px;
+    color: whitesmoke;
+    transition: 0.4s ease;
+    transition-property: color;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #d5cece!important;
+}
+.navbar-dark .navbar-nav .nav-item{
+    margin: 0 10px;
+}
+/* video */
+#hero{
+    position: relative;
+}
+#hero video{
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+#hero .content{
+    background: rbga(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#hero .content h1 a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+#hero .content h3{
+    color: #000;
+    font-weight: 300;
+}
+.my-btn{
+    padding: .5rem 1rem;
+    background-color: #007c7d;
+    border: #007c7d;
+    transition: 0.3s;
+    transition-property: background;
+}
+.my-btn:hover{
+    background-color: #00b9bc;
+    border: #00b9bc ;
+}
+
+.bg-special{
+    background-image: url(pexels-trushotz-3635300.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.jumbotron{
+    background-color: #fefefa;
+}
+
+h2 a{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    transition: 0.5s;
+    transition-property: color;
+    cursor: pointer;
+    margin: 1.5rem auto;
+  }
+  h2 a:hover{
+    color: #4a8d95!important;
+    text-decoration: none;
+  }
+  footer .logos{
+    font-size: 2.15rem;
+    color: #fff;
+    transition: 0.3s ease;
+    transition-property: color;
+  }
+  footer .logos:hover{
+    color: #00b9bc!important;
+  }
+
+  .socket{
+    background-color: #222222;
+    border-top: .rem solid rgb(176, 175, 219);
+  }
+  .socket p {
+    color: #797979!important;
+  }
+  .socket p a{
+    color: #797979!important;
+  }
+
+@media(max-width:768px){
+    #hero .content h1 a{font-size: 35px;}
+    #hero .content h3{font-size: 1.3rem;}
+    .my-btn{padding: .5rem .8rem;font-size: 1rem;}
+}
